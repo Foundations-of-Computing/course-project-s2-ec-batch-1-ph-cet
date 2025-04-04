@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lora", sans-serif;
+    background-color: #E4D6FA;
+    margin:30px 80px;
+    height:100vh;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 90px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding-left: 100px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 30px 0;  
+    color:#F50C00; 
+}
+button{
+    display: inline-block;
+    background: #ff0000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+button:hover{
+    background: #563434;
+}
+
+#anija
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6)
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.heading{
+    /* padding-top: 150px; */
+    text-align: centre;
+    font-size: 50px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 60px;
+}
+.heading h2 {
+    color:#1447F5;
+}
+.heading h4 {
+    color: #5040F5;
+}
+.wrapper {
+    /* perspective: 3000px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 50vw; */
+}
+@media screen and (max-width: 786px) {
+    .wrapper {
+        display: block;
+    }
+}
+.card{
+    width: 360px;
+    height: 530px;
+    min-width: 20%;
+    transform-style: preserve-3d;
+    transition: transform .8s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2),-5px -5px 10px rgba(0,0,0,0.05);
+    border-radius: 15px;
+    margin: 2vh 2vw;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.front-page,
+.back-page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+#anija .front-page {
+    background-image: url(images/anija.jpeg);
+    background-size: cover;
+}
+#geetha .front-page {
+    background-image: url(images/geetha.jpeg);
+    background-size: cover 10px;
+}
+#shelter .front-page {
+    background-image: url(images/shelter.jpeg);
+    background-size: cover ;
+}
+#abotta .front-page{
+    background-image: url(images/abotta.jpeg);
+    background-size: cover;
+}
+#ideal .front-page{
+    background-image: url(images/ideal.jpeg);
+    background-size: cover;
+
+}
+#priyankanilayam .front-page{
+    background-image: url(images/priyankanilayam.jpeg);
+    background-size: cover;
+}
+.card-info{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.card-title{
+    font-style: 2rem;
+    font-weight: bold;
+}
+.back-page{
+    background-color: #1e272e;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+.card-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+.card-content h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.card-description{
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.card-button{
+    background-color: #0fbcf9;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}p
+.card-button:hover{
+    background-color: transparent;
+    color: #0fbcf9;
+    border: 1px solid #0fbcf9;
+}

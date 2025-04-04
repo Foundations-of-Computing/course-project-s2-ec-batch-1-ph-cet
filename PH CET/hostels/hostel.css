@@ -1,0 +1,14 @@
+.wrapper {
+    width: 70vw;
+}
+.wrapper .images {
+    max-width: 50%;
+}
+.wrapper .images img {
+    /* width: 20vw; */
+    width: 45%;
+    /* max-height: 10vh; */
+}
+.text{
+    font-size: 40px;
+}
